@@ -10,8 +10,17 @@ This project requires Java Springboot and Maven to run.
 
 Relevant Links:
 https://spring.io/guides/gs/spring-boot/
+
 https://maven.apache.org/download.cgi
 
+First install dependencies
+`mvn install`
+
+Then package the src code
+`mvn package`
+
+Finally run the .jar file
+`java -jar target/calculator-0.0.1-SNAPSHOT.jar`
 
 ## API Reference Guide
 
